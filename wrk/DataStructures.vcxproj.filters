@@ -21,10 +21,10 @@
     <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Stack.cpp">
+    <ClCompile Include="..\src\StackLL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\StackLL.cpp">
+    <ClCompile Include="..\src\Stack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,10 +35,10 @@
     <ClInclude Include="..\src\Node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Stack.h">
+    <ClInclude Include="..\src\StackLL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\StackLL.h">
+    <ClInclude Include="..\src\Stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
