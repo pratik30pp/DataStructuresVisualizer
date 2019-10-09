@@ -1,6 +1,7 @@
 #include"Node.h"
 #include"LinkedList.h"
 
+//-----------------------------------------------------------------------------
 void LinkedList::Push(double data)
 {
 	Node* newNode = new Node();
@@ -11,6 +12,7 @@ void LinkedList::Push(double data)
 	m_length++;
 }
 
+//-----------------------------------------------------------------------------
 void LinkedList::Append(double data)
 {
 	Node* newNode = new Node();
@@ -24,13 +26,14 @@ void LinkedList::Append(double data)
 		return;
 	}
 
-	while (last->m_nextNode!= nullptr)
+	while (last->m_nextNode != nullptr)
 		last = last->m_nextNode;
 
 	last->m_nextNode = newNode;
 	m_length++;
 }
 
+//-----------------------------------------------------------------------------
 void LinkedList::InsertAfter(Node* prevNodeRef, double data)
 {
 	Node* newNode = new Node();
@@ -40,6 +43,7 @@ void LinkedList::InsertAfter(Node* prevNodeRef, double data)
 	m_length++;
 }
 
+//-----------------------------------------------------------------------------
 void LinkedList::DeleteNode(double key)
 {
 	Node* temp = *m_head;
@@ -58,7 +62,7 @@ void LinkedList::DeleteNode(double key)
 
 	// If key was not present in linked list
 	// temp has traversed till the end
-	if (temp == nullptr) 
+	if (temp == nullptr)
 		return;
 
 	// Unlink the node from linked list 
@@ -67,12 +71,13 @@ void LinkedList::DeleteNode(double key)
 	delete temp;
 }
 
+//-----------------------------------------------------------------------------
 void LinkedList::Reverse()
 {
 	Node* current = *m_head;
 	Node *prev = nullptr, *next = nullptr;
 
-	while (current != nullptr) 
+	while (current != nullptr)
 	{
 		// Store next 
 		next = current->m_nextNode;
@@ -87,6 +92,7 @@ void LinkedList::Reverse()
 	*m_head = prev;
 }
 
+//-----------------------------------------------------------------------------
 void LinkedList::DeleteList()
 {
 	Node* current = *m_head;
@@ -99,7 +105,7 @@ void LinkedList::DeleteList()
 		current = next;
 	}
 
-	/* deref head_ref to affect the real head back
-	in the caller. */
 	*m_head = nullptr;
 }
+
+//-----------------------------------------------------------------------------

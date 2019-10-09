@@ -21,10 +21,14 @@
   <ItemGroup>
     <ClCompile Include="..\src\LinkedList.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\StackLL.cpp" />
+    <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\LinkedList.h" />
     <ClInclude Include="..\src\Node.h" />
+    <ClInclude Include="..\src\StackLL.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A78E68EF-4719-4A64-A3CC-FEF73C776B87}</ProjectGuid>
