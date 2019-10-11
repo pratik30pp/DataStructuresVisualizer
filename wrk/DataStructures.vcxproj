@@ -21,12 +21,14 @@
   <ItemGroup>
     <ClCompile Include="..\src\LinkedList.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Queue.cpp" />
     <ClCompile Include="..\src\Stack.cpp" />
     <ClCompile Include="..\src\StackLL.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\LinkedList.h" />
     <ClInclude Include="..\src\Node.h" />
+    <ClInclude Include="..\src\Queue.h" />
     <ClInclude Include="..\src\Stack.h" />
     <ClInclude Include="..\src\StackLL.h" />
   </ItemGroup>
