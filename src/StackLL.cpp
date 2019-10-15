@@ -15,6 +15,7 @@ double StackLL::Peek()
 {
 	if (!IsEmpty())
 		return m_top->m_data;
+	else return 0.0;
 }
 
 //-----------------------------------------------------------------------------

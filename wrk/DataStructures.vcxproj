@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\CircLinkedList.cpp" />
     <ClCompile Include="..\src\LinkedList.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\Queue.cpp" />
@@ -26,6 +27,7 @@
     <ClCompile Include="..\src\StackLL.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\CircLinkedList.h" />
     <ClInclude Include="..\src\LinkedList.h" />
     <ClInclude Include="..\src\Node.h" />
     <ClInclude Include="..\src\Queue.h" />

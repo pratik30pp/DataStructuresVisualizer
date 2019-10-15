@@ -8,7 +8,7 @@ private:
 	Node* m_rear;
 public:
 	Queue() { m_front = m_rear = nullptr; }
-	~Queue() { delete m_front; delete m_rear; }
+	~Queue() {}
 
 	void EnQueue(double data);
 	double DeQueue();
